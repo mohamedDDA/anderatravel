@@ -1,0 +1,109 @@
+@media screen and (max-width: 767px) {
+
+    html {
+        font-size: 12xpx;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+    }
+
+    header .container nav ul {
+        opacity: 0;
+        z-index: -1;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        /* Position the dropdown below the navigation */
+        right: 0;
+        background-color: #fff;
+        gap:0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    header .container nav ul li {
+        width: 100%;
+        height: 100%;
+        padding: 15px 20px;
+        transition: 0.3s;
+    }
+    
+    header .container nav ul li:hover {
+        background-color: #eee;
+
+    }
+
+    header .container nav .drop-down {
+        display: block;
+        /* Show the dropdown icon */
+    }
+
+    nav .drop-down i {
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    #gallary .image-container {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    #gallary .image-container img {
+        height: 100%;
+    }
+
+    #gallary .item .data .hotel-name {
+        font-size: 1.5rem;
+    }
+
+    #gallary .item .data {
+        position: absolute;
+        top: 50%;
+    }
+
+    .heading h2 {
+        font-size: 2rem;
+    }
+
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us .left-side .info i {
+        width: 20px;
+    }
+
+    .left-side .info li {
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+    }
+
+    .left-side .info li i {
+        font-size: 1rem;
+    }
+
+    .hotels .hotel .image {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+
+
+
+@media screen and (min-width: 1200px) {}
